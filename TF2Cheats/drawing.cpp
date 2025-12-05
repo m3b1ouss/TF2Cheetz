@@ -84,25 +84,3 @@ void Draw2DBox(Vector2 top, Vector2 bottom, int width, D3DCOLOR col, Vector2 &bo
 	DrawLine(tl, bl, width, col);
 	DrawLine(tr, br, width, col);
 }
-
-void DrawCircle(Vector2 center, float radius) 
-{
-	
-}
-
-/*
-void DrawGraph(const std::vector<Vector2> *vertices, int vId, int vWidth, D3DCOLOR vCol) {
-	
-	if (vertices[vId].size() <= 1)
-		return;
-
-	for (auto v : vertices[vId]) 
-	{
-		if (vertices[v][0] != vId) 
-		{
-			DrawLine(pos1, pos2, vWidth, vCol);
-			DrawGraph(vertices, vId, vWidth, vCol);
-		}
-	}
-}
-*/

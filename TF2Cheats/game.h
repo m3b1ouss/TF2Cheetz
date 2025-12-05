@@ -75,35 +75,6 @@ typedef float* (__thiscall* GetMVPMatrix)();
 typedef bool (__thiscall* GetPInfo)(void* thisPtr, int entNum, player_info_t* playerInfo);
 typedef bool (__thiscall* InGame)();
 
-/*
-namespace Skeletons
-{
-	std::vector<int> Spy[21] =
-	{
-		std::vector{2, 16, 17},
-		std::vector{1, 3},
-		std::vector{2, 4},
-		std::vector{3, 11, 10},
-		std::vector{4, 6},
-		std::vector{5},
-		std::vector{0},
-		std::vector{0},
-		std::vector{0},
-		std::vector{4, 12},
-		std::vector{4, 13},
-		std::vector{10, 14},
-		std::vector{11, 15},
-		std::vector{12},
-		std::vector{13},
-		std::vector{1, 18},
-		std::vector{1, 19},
-		std::vector{16, 20},
-		std::vector{17, 21},
-		std::vector{18},
-		std::vector{19},
-	};
-}
-*/
 
 class entityNode
 {

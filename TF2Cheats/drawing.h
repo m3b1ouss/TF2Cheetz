@@ -19,6 +19,3 @@ void DrawLine(Vector2 src, Vector2 dst, int width, D3DCOLOR col);
 void DrawHBar(Vector2 pos, int length, int width, D3DCOLOR col);
 
 void Draw2DBox(Vector2 top, Vector2 bottom, int width, D3DCOLOR col, Vector2& bottomLeft, Vector2& topRight);
-
-void DrawCircle(Vector3 center, float radius);
-//void DrawGraph(const std::vector<int>* vertices, int vId, int vWidth, D3DCOLOR vCol, const void (*transformFunc)(int, Vector2&));
