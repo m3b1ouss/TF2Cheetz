@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="TF2Cheats/TF2Cheats.vcxproj" Id="935b4564-137f-4960-9ac7-47b121eba09a" />
+</Solution>
